@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   entry: './singlefileentry.js',
@@ -7,8 +7,8 @@ module.exports = {
     filename: 'singleFileY.js',
     library: {
       name: 'Y',
-      type: 'var',
-    },
+      type: 'var'
+    }
   },
   module: {
     rules: [
@@ -23,5 +23,5 @@ module.exports = {
         }
       }
     ]
-  },
-};
+  }
+}

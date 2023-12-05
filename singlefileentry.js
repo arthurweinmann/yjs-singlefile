@@ -1,3 +1,4 @@
 import * as Y from './src/index.js'
 
-export { Y }
+const spread = { ...Y };
+export default spread;
